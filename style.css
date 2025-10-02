@@ -8,12 +8,12 @@ body {
   header {
     background: #2c3e50;
     color: white;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     text-align: center;
   }
   
   nav a {
-    margin: 0 1rem;
+    margin: 0 0.75rem;
     color: #1abc9c;
     text-decoration: none;
     font-weight: bold;
@@ -22,11 +22,15 @@ body {
   .container {
     max-width: 900px;
     margin: auto;
-    padding: 2rem;
+    padding: 1.5rem;
   }
   
   section {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  section h2 {
+    margin-bottom: 0.75rem;
   }
   
   .project-card {
@@ -43,6 +47,7 @@ body {
   .experience ul {
     list-style: none;
     padding: 0;
+    margin: 0;
   }
   
   .skills li,
@@ -50,7 +55,7 @@ body {
   .education li,
   .experience li {
     background: #ecf0f1;
-    margin: 0.5rem 0;
+    margin: 0.4rem 0;
     padding: 0.5rem;
     border-radius: 4px;
   }
@@ -60,6 +65,7 @@ body {
     color: white;
     text-align: center;
     padding: 1rem;
+    margin-top: 1rem;
   }
   
   
